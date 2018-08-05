@@ -6,7 +6,7 @@
             jax: ["input/TeX"],
             tex2jax: {
                 inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-                displayMath: [ ['$$','$$'], ["\[","\]"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
                 processEscapes: false
             },
             TeX: {
