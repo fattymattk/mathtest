@@ -1,6 +1,3 @@
----
-mathjax: true
----
 
 
 ## Welcome to GitHub Pages
