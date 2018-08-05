@@ -13,8 +13,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 **this is some bold text**
 
-
-  $$a^2 + b^2 = c^2$$
+Hello $a$
 
 
 
