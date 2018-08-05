@@ -13,9 +13,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 **this is some bold text**
 
- {% raw %}
-  $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
- {% endraw %}
+
+  $$a^2 + b^2 = c^2$$
+
 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
