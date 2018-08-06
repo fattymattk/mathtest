@@ -1,5 +1,6 @@
 ---
 use_math: true
+title: what what 
 ---
 ## Welcome to GitHub Pages
 
