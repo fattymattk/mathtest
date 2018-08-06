@@ -1,6 +1,7 @@
 ---
 use_math: true
 title: what what 
+page.title: page title
 ---
 ## Welcome to GitHub Pages
 
