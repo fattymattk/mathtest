@@ -5,7 +5,7 @@ title: Functions
 
 # Functions
 
-$\fbox{here is some text}$
+$\fbox{here is some text and here is a variable $a$}$
 here is some text
 
 $here is some text$
