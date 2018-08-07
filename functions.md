@@ -5,4 +5,4 @@ title: Functions
 
 # Functions
 
-\fbox{here is some text}
+$\fbox{here is some text}$
