@@ -13,9 +13,9 @@ We call $A$ the **domain** of $f$. We call $B$ the **codomain** of $f$.
 
 We will only be interested in functions that have real numbers as inputs and outputs. Hence, $A$ and $B$ will always be subsets of $\mathbb{R}$.
 
-$\fbox{\textbf{Definition}: \\
-
-A \textbf{function} $f: A \rightarrow B$ is a rule that assigns to each element $x \in A$ exactly one element in $B$.}$
+>> Definition
+>>
+>>A \textbf{function} $f: A \rightarrow B$ is a rule that assigns to each element $x \in A$ exactly one element in $B$.}$
 
 We should note that "exactly one element" means that an input $x$ cannot have two different output values. That is, if $f(x) = y$ and $f(x) = z$, then $y = z$. For this reason, there is never any ambiguity by what we mean by $f(x)$. It only has one value!
 
