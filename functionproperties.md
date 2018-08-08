@@ -5,7 +5,7 @@ title: Properties of Functions
 
 # Properties of Functions
 
-## Domain, Codomain and Range
+## Domain, Codomain, and Range
 
 In the previous section we defined a function $f: A \rightarrow B$ to be a mapping from the set $A$ to the set $B$. If $x \in A$, we call $x$ an input of the function, and we defined $f(x) \in B$ to be the corresponding output. We say that $A$ is the domain of the function $f$, and we require that each element of $A$ to have exactly one output. We call $B$ the codomain of the function $f$.
 
@@ -99,7 +99,13 @@ The following is the graph of $y=g(x)$, where $g$ is defined by
 
 $$g(x)= \left\{ \begin{array}{ll} x^2, & \mbox{if } x\leq 0, \\ -1-x, & \mbox{if } x > 0. \end{array} \right.$$
 
+(Note that we say this is a **piecewise function**.)
+
 
 ![Graph of Decreasing Function](images/decreasing_function.png "Graph of Decreasing Function")
 
 The graph can be found [here](https://www.desmos.com/calculator/yfx7kecm0b).
+
+
+The function $g$ is decreasing, because as we move to the right, the function goes down. Referring back to the definition, we can see that it is true that if $b>a$, then $g(b)<g(a)$. For example, $g(1) < g(0)$.
+
