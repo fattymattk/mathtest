@@ -15,10 +15,14 @@ We will only be interested in functions that have real numbers as inputs and out
 
 > **Definition:**
 >
->A **function** $f: A \rightarrow B$ is a rule that assigns to each element $x \in A$ exactly one element in $f(x) \in B$.
+>A **function** $f: A \rightarrow B$ is a rule that assigns to each element $x \in A$ exactly one element in $B$. This element in $B$ is denoted by $f(x)$ and is the **value** of $f$ at $x$.
 
 We should note that "exactly one element" means that an input $x$ cannot have two different output values. That is, if $f(x) = y$ and $f(x) = z$, then $y = z$. For this reason, there is never any ambiguity by what we mean by $f(x)$. It only has one value!
 
-It's unfortunately common to refer to $f(x)$ as a function. While we have no choice but to excuse such behaviour, we can still point it out as incorrect. $f$ is a function. $f(x)$ is the value of the function when the input is $x$. Simply put, $f$ is a rule or a formula, and $f(x) is a number. These are very different things! 
+It's unfortunately common to refer to $f(x)$ as a function. While we have no choice but to excuse such behaviour, we can still point it out as incorrect. $f$ is a function. $f(x)$ is the value of the function when the input is $x$. Simply put, $f$ is a rule or a formula, and $f(x)$ is a number. These are very different things! Just like a recipe is different than the meal it produces, a function is different than the numbers it outputs.
+
+
+
+
 
 
