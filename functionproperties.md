@@ -97,7 +97,7 @@ Let $a$ and $b$ be real numbers such that $b>a$. We want to show that $f(b)>f(a)
 
 The following is the graph of $y=g(x)$, where $g$ is defined by
 
-$$g(x)= \left\\{ \begin{array}{ll} x^2, & \mbox{if } x\leq 0, \\ -1-x, & \mbox{if } x > 0. \end{array} \right.$$
+$$g(x)= \left\{ \begin{array}{ll} x^2, & \mbox{if } x\leq 0, \\ -1-x, & \mbox{if } x > 0. \end{array} \right.$$
 
 
 ![Graph of Decreasing Function](images/decreasing_function.png "Graph of Decreasing Function")
