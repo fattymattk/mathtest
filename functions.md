@@ -69,10 +69,12 @@ Looking at the circle, it's clear that it's possible to draw a vertical line tha
 
 ![Vertical Line Test](images/vertical_line_test.png "Vertical Line Test")
 
-[here](https://www.desmos.com/calculator/4xedjbn5zq)
+This graph can be found [here](https://www.desmos.com/calculator/4xedjbn5zq).
 
 You should revisit the graph of $y=x^2$ above and convince yourself that is passes the vertical line test. That is, any vertical line we can draw will only intersect the graph once. So if $y=x^2$, we can say that $y$ is a function of $x$.
 
+It should also be noted that it might be possible to draw a vertical line that doesn't intersect the graph anywhere. In this case, the x value at which the line is drawn is not included in the domain of the corresponding function (assuming we can otherwise define a function from the graph).
 
+For example, try putting `y=1/x` into Desmos. You will then see that a vertical line intersects the graph in exactly one place, except the line drawn at $x=0$ where it doesn't intersect the graph at all. In this case, we can define $y$ as a function of $x$, where the domain of the function includes any real number except $0$ (we can't divide by $0$!).
 
 
