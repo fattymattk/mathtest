@@ -13,7 +13,7 @@ We call $A$ the **domain** of $f$. We call $B$ the **codomain** of $f$.
 
 We will only be interested in functions that have real numbers as inputs and outputs. Hence, $A$ and $B$ will always be subsets of $\mathbb{R}$.
 
-> **Definition**
+> **Definition:**
 >
 >A **function** $f: A \rightarrow B$ is a rule that assigns to each element $x \in A$ exactly one element in $B$.}$
 
