@@ -43,7 +43,7 @@ Given an equation that relates variables $x$ and $y$, we can create a graph as t
 
 In Desmos, this is done simply by typing in the equation. The convention is that $y$ is used for the dependent variable and $x$ is used for the independent variable. So for instance, if we type in `y=x^2`, we get the following graph:
 
-![Graph of $y=x^2$](images/testgraph.png, "Graph of y=x^2").
+![Graph of $y=x^2$](images/testgraph.png "Graph of y=x^2").
 
 The graph can be found [here](https://www.desmos.com/calculator/cgwhdkpkdt).
 
