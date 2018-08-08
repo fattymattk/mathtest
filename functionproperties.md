@@ -9,7 +9,7 @@ In the previous section we defined a function $f: A \rightarrow B$ to be a mappi
 
 For example, if $f$ is the function that takes a number and returns its square root, then we can write $f(x) = \sqrt{x}$. Since we are not able to take the square root of negative numbers, a suitable domain for $f$ is the set $A=\{x \in \mathbb{R} | x\geq 0 \}$. Since $\sqrt{x}$ is a real number for all $x\in A$, a suitable codomain is $B=\mathbb{R}$.
 
-But that raises the question of whether or not there are elements in the codomain that have a corresponding output. The answer is _not necessarily_. We have that $-1$ is an element of $B$, but there is not $x\in A$ such that $\sqrt{x} = -1$.
+But that raises the question of whether or not there are elements in the codomain that have a corresponding output. The answer is *not necessarily*. We have that $-1$ is an element of $B$, but there is not $x\in A$ such that $\sqrt{x} = -1$.
 
 This leads us to the concept of **range**. The range of a function is the set of all possible outputs. More precisely, the range is defined by $R=\{y \in B | f(x) = y$ for some $x\in A \}$. It should be thought of as a subset of the codomain.
 
