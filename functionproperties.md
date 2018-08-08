@@ -41,5 +41,31 @@ The graph can be found [here](https://www.desmos.com/calculator/muql8ewwkz).
 
 Note the symmetry. The graph for positive $x$ values is the same for negative $x$ values, just reflected. We have, for example, $f(5) = f(-5)$ and $f(3) = f(-3)$, which agrees with the definition of what it means for a function to be even.
 
+The graph of an odd function is one where if we reflect it about the $y$-axis and then the $x$-axis, we get the same graph back. As an example, the following graph is of an odd function:
+
+![Graph of Odd Function](images/odd_function.ong "Graph of Odd Function")
+
+The graph can be found [here](https://www.desmos.com/calculator/b8qi72b6dm).
+
+Here, we can see a different kind of symmetry. If we look at $f(6)$, for instance, we see that $f(-6)$ has the opposite sign.
+
+In a certain sense, the graphs of even or odd functions give us redundant information. If I showed you the graph of an even function for positive $x$ values, you could construct the graph for negative $x$ values. All you'd have to do is draw the mirrored image. Similarly, if I showed you the graph of an odd function for positive $x$ values, you could construct the rest of the graph. You'd just draw the same curve reflected about the $y$-axis and then the $x$-axis (or about the $x$-axis and then the $y$-axis).
+
+## Periodic Functions
+
+>Definition:
+>
+>A function $f$ is called **periodic** if there exists a positive number $T$ such that $f(x) = f(x+T)$ for all $T$. The value of $T$ is called the $period$ of the function.
 
 
+Intuitively, periodic functions are ones that repeat themselves. If I told you what $f(x)$ is for all $x \in \[0,T)$, then you could tell me $f(x)$ for any value of $x$.
+
+For example, the following function is periodic with period $1$:
+
+![Graph of Periodic Function](images/periodic_function.png "Graph of Periodic Function")
+
+The graph can be found [here](https://www.desmos.com/calculator/afautxqng2).
+
+The formula typed into Desmos is just a trick that you don't need to worry about.
+
+The function is defined as $f: \mathbb{R} \rightarrow \mathbb{R}$, where $f(x) = x^2$ if $x \in \[0,1)$ and $f(x) = f(x+1)$ for all $x$. To determine the value of $f(5/2)$, we note that $f(5/2) = f(3/2 + 1) = f(3/2) = f(1/2 + 1) = f(1/2) = (1/2)^2 = 1/4$. That is, we can keep subtracting integer multiples of the period off from the input until we get a new input in the interval that we know.
