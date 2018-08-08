@@ -23,3 +23,23 @@ Given the graph of a function, we can determine the domain and range. The number
 
 `We can do an example here, something like x/(x+1) for instance`
 
+## Even and Odd Functions
+
+>Definition:
+>
+>A function $f$ is called **even** if $f(x) = f(-x)$ for all $x$ in the domain of $f$. 
+>
+>A function $f$ is called **odd** if $f(x) = -f(-x)$ for all $x$ in the domain of $f$.
+
+Thinking in terms of graphs, an even function is one where the $y$-axis acts in some way like a mirror. Put another way, if we had the graph printed on a piece of paper, and we folded the paper where the $y$-axis is, the graphs on either side of the $y$-axis would line up.
+
+The following is a graph of an even function:
+
+![Graph of Even Function](images/even_function.png "Graph of Even Function")
+
+The graph can be found [here](https://www.desmos.com/calculator/muql8ewwkz).
+
+Note the symmetry. The graph for positive $x$ values is the same for negative $x$ values, just reflected. We have, for example, $f(5) = f(-5)$ and $f(3) = f(-3)$, which agrees with the definition of what it means for a function to be even.
+
+
+
