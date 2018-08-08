@@ -69,3 +69,37 @@ The graph can be found [here](https://www.desmos.com/calculator/afautxqng2).
 The formula typed into Desmos is just a trick that you don't need to worry about.
 
 The function is defined as $f: \mathbb{R} \rightarrow \mathbb{R}$, where $f(x) = x^2$ if $x \in \[0,1)$ and $f(x) = f(x+1)$ for all $x$. To determine the value of $f(5/2)$, we note that $f(5/2) = f(3/2 + 1) = f(3/2) = f(1/2 + 1) = f(1/2) = (1/2)^2 = 1/4$. That is, we can keep subtracting integer multiples of the period off from the input until we get a new input in the interval that we know.
+
+## Increasing and Decreasing Functions
+
+>Definition:
+>
+>A function $f$ is said to be **increasing** if $f(b)>f(a)$ whenever $b>a$.
+>
+>A function $f$ is said to be **decreasing** if $f(b)<f(a)$ whenever $b>a$.
+
+If $f$ is an increasing function, and we consider the graph of $y=f(x)$, then the statement $b>a$ can be interpreted to mean that $b$ is a value on the $x$-axis that is farther right than the value $a$ on the $x$-axis. The statement $f(b)>f(a)$ can be interpreted to mean that $f(b)$ is a value of the $y$-axis that is higher than the value $f(a)$ on the $y$-axis. So "increasing" means what we might intuitively think: a function is increasing if the graph moves up as we move to the right.
+
+Similarly, a function is decreasing if the graph moves down as move to the right.
+
+The following is the graph of $y=f(x)$, where $f(x) = x^3+x$.
+
+![Graph of Increasing Function](images/increasing_function.png "Graph of Increasing Function")
+
+The graph can be found [here](https://www.desmos.com/calculator/zxnqnddokc).
+
+The function $f$ is an increasing function. Indeed, looking at the graph, we see that it goes up as we move to the right.
+
+Although the graph is very suggestive, it's best to actually prove that $f$ is increasing from the definition. We can use graphs to help shape our intuition, but we should avoid making definitive statements just from a picture. Pictures are at best approximations to what's actually going on.
+
+Let $a$ and $b$ be real numbers such that $b>a$. We want to show that $f(b)>f(a)$. That is, we want to show $b^3+b > a^3 + a$. `I'm not sure if this is the kind of stuff I want to do, I'll check back in later`
+
+
+The following is the graph of $y=g(x)$, where $g$ is defined by
+
+$$g(x)= \left\\{ \begin{array}{ll} x^2, & \mbox{if } x\leq 0, \\ -1-x, & \mbox{if } x > 0. \end{array} \right.$$
+
+
+![Graph of Decreasing Function](images/decreasing_function.png "Graph of Decreasing Function")
+
+The graph can be found [here](https://www.desmos.com/calculator/yfx7kecm0b).
