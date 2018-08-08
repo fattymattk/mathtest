@@ -43,7 +43,7 @@ Given an equation that relates variables $x$ and $y$, we can create a graph as t
 
 In Desmos, this is done simply by typing in the equation. The convention is that $y$ is used for the dependent variable and $x$ is used for the independent variable. So for instance, if we type in `y=x^2`, we get the following graph:
 
-![Graph of $y=x^2$](images/testgraph.png "Graph of y=x^2").
+![Graph of $y=x^2$](images/testgraph.png "Graph of y=x^2")
 
 The graph can be found [here](https://www.desmos.com/calculator/cgwhdkpkdt).
 
@@ -51,7 +51,27 @@ We can see that the points $(3,9)$ and $(-3,9)$ are points on the graph, as they
 
 ## Vertical Line Test
 
+If type `x^2 + y^2 = 1` into Desmos, we get a graph that is a circle:
 
+![Graph of $x^2 + y^2 =1$](images/circlegraph.png "Graph of x^2 + y^2 = 1")
+
+The graph can be found [here](https://www.desmos.com/calculator/zl9ybaimr9).
+
+With $y$ has the dependent variable, we can ask ourselves in $y$ is a function of $x$. Recalling the definition of a function, we require a unique value of $y$ for every value of $x$. But looking at the graph, it's clear that if $x$ is, say, $\frac{1}{2}$,  then there is a corresponding positive value of $y$ and a negative value of $y$. (As an exercise, use the equation to determine what these values are.)
+
+For this reason, this equation does not define a function. This leads to the **vertical line test**, which allows us to determine whether or not a graph can be used to define a function.
+
+>**The Vertical Line Test**
+>
+> Given a graph of points $(x,y)$, where the $y$ values are represented by the vertical axis and the $x$ values by the horizontal axis, $y$ is defined by a function of $x$ only if every vertical line intersects the graph at most once.
+
+Looking at the circle, it's clear that it's possible to draw a vertical line that intersects the graph in more than one place:
+
+![Vertical Line Test](images/vertical_line_test.png "Vertical Line Test")
+
+[here](https://www.desmos.com/calculator/4xedjbn5zq)
+
+You should revisit the graph of $y=x^2$ above and convince yourself that is passes the vertical line test. That is, any vertical line we can draw will only intersect the graph once. So if $y=x^2$, we can say that $y$ is a function of $x$.
 
 
 
