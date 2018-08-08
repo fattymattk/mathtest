@@ -19,11 +19,11 @@ A **root**, or **zero**, of a polynomial $p$ is a number $a$ such that $p(a) = 0
 
 There are a few things we can say about polynomials:
 
-*A polynomial of degree $n$ has at most $n$ real roots.
+* A polynomial of degree $n$ has at most $n$ real roots.
 
-*The product, sum, and difference of any two polynomials is a polynomial.
+* The product, sum, and difference of any two polynomials is a polynomial.
 
-*If $p(a) = 0$ (if $a$ is a root of $p$), then $p(x) = (x-a)q(x)$ for some polynomial $q$ that is degree $1$ less than $p$.
+* If $p(a) = 0$ (if $a$ is a root of $p$), then $p(x) = (x-a)q(x)$ for some polynomial $q$ that is degree $1$ less than $p$.
 
 
 In particular, if the degree of $p$ is $0$, then $p(x) = c$ for some real number $c$, which means $p$ is a **constant** function. Constant functions are those that return the same output no matter what input we give it.
@@ -32,7 +32,7 @@ If the degree of $p$ is $1$, then $p(x) = mx+b$ for some real numbers $m$ and $b
 
 If the degree of $p$ is $2$, then $p(x) = ax^2 + bx + c$ for some real numbers $a$, $b$, and $c$, with $a\neq 0$. We call $p$ a **quadratic function**. You should be familiar with the quadratic formula, which gives us an explicit way to determine the roots of $p$:
 
-$$ x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$$.
+$$ x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.$$
 
 The $\pm$ here indicates that there are possibly two roots: one being if we take this symbol to mean $+$ and one if we take it to mean $-$ in the above equation.
 
