@@ -15,7 +15,7 @@ We will only be interested in functions that have real numbers as inputs and out
 
 > **Definition:**
 >
->A **function** $f: A \rightarrow B$ is a rule that assigns to each element $x \in A$ exactly one element in $B$.
+>A **function** $f: A \rightarrow B$ is a rule that assigns to each element $x \in A$ exactly one element in $f(x) \in B$.
 
 We should note that "exactly one element" means that an input $x$ cannot have two different output values. That is, if $f(x) = y$ and $f(x) = z$, then $y = z$. For this reason, there is never any ambiguity by what we mean by $f(x)$. It only has one value!
 
