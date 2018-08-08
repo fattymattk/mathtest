@@ -11,7 +11,7 @@ title: Function Operations
 >
 >We define the function $f+g: A \rightarrow \mathbb{R}$, called the **sum** of $f$ and $g$, to be such that $(f+g)(x) = f(x) + g(x)$ for all $x\in A$.
 >
->We define the function $fg: A \rightarrow \mathbb{R}$, called the **product** of $f$ and $g$, to be such that $(fg)(x) = f(x)g(x)$ for all $x$ \in A$.
+>We define the function $fg: A \rightarrow \mathbb{R}$, called the **product** of $f$ and $g$, to be such that $(fg)(x) = f(x)g(x)$ for all $x \in A$.
 
 The functions $f-g$ and $f/g$ are defined similarly. For $f/g$, the domain is restricted to the subset of $A$ where $g(x)$ is nonzero.
 
@@ -25,7 +25,7 @@ $$(f+g)(x) = \sqrt{x} + (x + 1)$$
 
 $$(f-g)(x) = \sqrt{x} - (x + 1)$$
 
-$$(fg)(x) = \sqrt{x}(x + 1)$$
+$$(fg)(x) = \sqrt{x}\cdot (x + 1)$$
 
 $$(f/g)(x) = \frac{\sqrt{x}}{x + 1}$$
 
@@ -34,3 +34,5 @@ $$(f\circ g)(x) = \sqrt{x+1}$$
 `I have to be more careful here in defining the domain and range and all that stuff`
 
 ## Function Transformations
+
+Here we will explore how certain changes to a function can affect what the graph looks like. The example function we will work with here x^3-x
