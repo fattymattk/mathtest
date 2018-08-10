@@ -93,6 +93,8 @@ This might not seem like much of a definition, but it defines a unique number $a
 
 You might want to think of the case for $0<a<1$. It's the same idea.
 
+The point to take away here is that these definitions are merely to tell us that a number exists. This might seem a little abstract, but eventually we will learn ways to compute (or approximate) the actual values.
+
 `notes: we should figure out where to do inverse functions. I'm thinking right after domain and range and before increasing and decreasing. We should define 1-1 and onto. Then we are in a situation to do the log function now.`
 
 `think about how to deal with e. Do we want to save this for when we do derivatives? I think I'll see how that goes`
