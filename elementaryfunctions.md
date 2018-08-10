@@ -103,5 +103,5 @@ The point to take away here is that these definitions are merely to tell us that
 
 `that's probably it for this section`
 
-
+`I'm not quite sure but the discussion about a^x for irrational x might lead into the concept of a limit well`
 
