@@ -58,7 +58,12 @@ The graph can be found [here](https://www.desmos.com/calculator/ozvjuacxok).
 
 Besides the fact that they're nothing a like for negative values of $x$, the big difference is that the exponential function grows much faster. This fact has slipped into our everyday language, as we often think of something that grows very fast as growing "exponentially".
 
-Another clear difference is that $x^2$ is $0$ when $x=0$ and $2^x$ is $1$ when $x=0$. This is a good time to review the properties of exponential functions:
+Another clear difference is that $x^2$ is $0$ when $x=0$ and $2^x$ is $1$ when $x=0$.
+
+You can see what the graphs of exponential functions for various values of $a$ look like [here](https://www.desmos.com/calculator/arjes7hh8y). In particular, note the behaviour of the graph as $a$ increases, and note the qualitative difference between when $a<1$ and $a>1$. Why do you think we exclude the case when $a=1$?
+
+
+This is a good time to review the properties of exponential functions:
 
 * $a^(b+c) = a^b a^c$.
 
@@ -73,4 +78,28 @@ Another clear difference is that $x^2$ is $0$ when $x=0$ and $2^x$ is $1$ when $
 * $a^{m/n} = \sqrt[n]{a^m} = (\sqrt[n]{a})^m$ when $m$ and $n>0$ are integers.
 
 We'll take these properties to be true by definition. Also, don't forget that $a>0$ and $a\neq 1$ for all of the above.
+
+Now a natural question to ask now is what is $a^x$ when $x$ is irrational? For integer values and rational values of $x$ we have a clear definition above. But if we want to define a function in this form with a domain that is $\mathbb{R}$, then we have to think about what happens for irrationals as well.
+
+Very loosely speaking, we want the function to be "nice". If $x$ is irrational but close to some rational number $r$, then we want $a^x$ to be close to $a^r$. If this wasn't true, then our above graph wouldn't look so nice, as it would have weird jumps wherever there are irrational inputs (and there are a lot!).
+
+Consider for a moment the case when $a>1$. In this situation, we have discovered from the graph that the function $f: \mathbb{R} \rightarrow \mathbb{R}$ is an **increasing** function. If $x$ is irrational, $r$ is rational, and $x>r$, then it should be true that $a^x>a^r$. Similarly, if $p$ is rational and $x<p$, then $a^x < a^p$.
+
+So although things might be becoming less than concrete, we can define $a^x$ for irrational $x$ as the following:
+
+>If $x$ is irrational and $p$ and $r$ are *any* rational numbers such that $p<x<r$, then for $a>1$ we have that $a^p<a^x<a^r$.
+
+This might not seem like much of a definition, but it defines a unique number $a^x$ for any irrational $x$. In practice, if we were to try and compute it using this definition, we could only achieve some sort of approximation by choose $p$ and $r$ as close to $x$ as we need. But this shouldn't be too unsettling. We have no trouble thinking of $\pi$ as a perfectly fine number, even though there is no hope of ever knowing its full decimal expansion. So there shouldn't be much of a problem thinking of $2^{\pi}$ as a well-defined number even though we might have to approximate it as somewhere between $2^{3.141}$ and $2^{3.142}$.
+
+You might want to think of the case for $0<a<1$. It's the same idea.
+
+`notes: we should figure out where to do inverse functions. I'm thinking right after domain and range and before increasing and decreasing. We should define 1-1 and onto. Then we are in a situation to do the log function now.`
+
+`think about how to deal with e. Do we want to save this for when we do derivatives? I think I'll see how that goes`
+
+`we need to do trig and inverse trig. also, we should do rational functions above`
+
+`that's probably it for this section`
+
+
 
