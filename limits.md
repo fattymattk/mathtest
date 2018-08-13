@@ -78,3 +78,26 @@ We take a look at the graph [here](https://www.desmos.com/calculator/pywkn1cgxa)
 | 0.9           | -1.645454545...   |
 | 0.99          | -1.9604950495...  |
 | 0.999         | -1.996004995...   |
+
+
+So we have numerical evidence that when $a$ is close to $1$, but less than $1$, $f(a)$ is close to $-2$. Furthermore, the closer we get to $1$, the closer we get to $-2$. So $-2$ seems like a good candidate for our limit. But this isn't quite enough evidence yet, as we should investigate what happens what happens on the other side of $1$ (we could get some weird behaviour like for $g$ above).
+
+|   a           |  f(a)             | 
+| ------------- |:-----------------:| 
+| 1.1           | -2.455555555...   |
+| 1.01          | -2.04050505051... |
+| 1.001         | -2.00400500501... |
+
+And indeed, when $a$ is close to $1$, but greater than $1$, $f(a) is close to $-2$. So it seems like 
+
+$$\lim_{x\rightarrow 1} \frac{x^2+1}{x-2} = -2.$$
+
+Now note that this is not proof. We will learn some tricks to evaluate limits more carefully, rather than relying on this tedious and perhaps unreliable numerical method. We just do this now to get a feeling for what a limit is. In a sense, it's the value of a function at some input if we're not allowed to use the input.
+
+Also note that if we take a look at the graph of $y=f(x)$ in our current example, it's kind of obvious what the limit is. The limit is clearly $f(1)$. So why can't we just evaluate $f(1)$ and say that that's the limit?
+
+There are two reasons: (1) We're not always able to evaluate the function at the input we're interested in, as it's not always in the domain of the function, and (2) The limit is not always the same as the value of the function at that input.
+
+To expand on the second reason, consider the piecewise function $h$, defined by
+
+$$ h(x) = \left\{ \begin{array}{ll} x^2, & \mbox{if } x < 0, \\ x+1, & \mbox{if } x \geq 0. \end{array} \right.$$
