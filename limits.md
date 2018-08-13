@@ -114,5 +114,5 @@ doesn't exist.
 
 `removable discontinuity example`
 
-
+`precise definition of a limit should come next. Use Desmos to zoom in the delta and epsilon stuff'
 
