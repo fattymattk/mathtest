@@ -49,10 +49,32 @@ This brings us to the concept of a limit. In words, we'll make the following def
 
 >Definition:
 >
->Let $f:A \rightarrow B$ be a function. We say that the limit of $f$ at $a$ is equal to $L$, and write $\lim_{x \rightarrow a} f(x) =L$ if we can make $f(x)$ as close as we want to $L$ by making $x$ sufficiently close to, but unequal to, $a$.
+>Let $f:A \rightarrow B$ be a function. We say that the limit of $f$ at $a$ is equal to $L$, and write $\lim_{x \rightarrow a} f(x) =L$ if we can make $f(x)$ as close as we want to $L$ for all $x$ sufficiently close to, but not equal to, $a$.
 
 Considering our example above where $f(x) = \frac{x^2-9}{x-3}$, we can consider the limit of $f$ at $3$. For $x\neq 3$, we have $f(x) = x+3$. We expected the limit to be $6$. Indeed, if we want $f(x)$ to be within $0.1$ of $6$, we just need to take $x$ within $0.1$ of $3$. If we wanted $f(x)$ to be within $0.0001$ of $6$, we just need to take $x$ within $0.0001$ of $3$. 
 
 However, for $g(x) = \frac{|x-3|}{x-3}$, the limit of $g$ at $3$ does not exist. That's because $g(x)$ does not get close to any single value $L$ when $x$ is near $3$. If we were to suppose that the limit is $1$, then we would require all $x$ inputs that are close to $3$ but not equal to $3$ to give outputs close to $1$. But inputs slightly less than $3$ give outputs of $-1$. So there's no way to guarantee that $f(x)$ can be made as close to $1$ as we want by requiring that $x$ be close enough to $3$. Indeed, any neighbourhood around $3$ will include inputs less than $3$, which output $-1$, which isn't close to $1$.
 
+## Numerical Evidence of a Limit
 
+Without having any tricks in order to evaluate a limit, we can proceed somewhat naively and use what we know from the definition to try and guess a sensible value of what a limit might be. 
+
+Consider the function $f$ defined as the following:
+
+$$ f(x) = \frac{x^2 + 1}{x-2}.$$
+
+As a side note, the domain of this function is all real numbers except $x=2$. The codomain can be taken to be $\mathbb{R}$ and the range is some subset of $\mathbb{R}$ that we don't really care about right now.
+
+Suppose we want to evaluate the following:
+
+$$\lim_{x\rightarrow 1} f(x).$$
+
+We can't just evaluate $f(1)$ because the definition of the limit tells us we're interesting in $f(x)$ for $x$ close to $1$, *but not equal to $1$*. Given this, the natural thing to do is to try out different values of $x$ that get closer and closer to $1$ and see what happens.
+
+We take a look at the graph [here](https://www.desmos.com/calculator/pywkn1cgxa) and move the value of $a$ around to see what happens when $a$ gets close to $1$. 
+
+| $a$           |  $f(a)$           | 
+| ------------- |:-----------------:| 
+| 0.9           | -1.645454545...   |
+| 0.99          | -1.9604950495...  |
+| 0.999         | -1.996004995...   |
