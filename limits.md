@@ -88,7 +88,7 @@ So we have numerical evidence that when $a$ is close to $1$, but less than $1$, 
 | 1.01          | -2.04050505051... |
 | 1.001         | -2.00400500501... |
 
-And indeed, when $a$ is close to $1$, but greater than $1$, $f(a) is close to $-2$. So it seems like 
+And indeed, when $a$ is close to $1$, but greater than $1$, $f(a)$ is close to $-2$. So it seems like 
 
 $$\lim_{x\rightarrow 1} \frac{x^2+1}{x-2} = -2.$$
 
@@ -101,3 +101,18 @@ There are two reasons: (1) We're not always able to evaluate the function at the
 To expand on the second reason, consider the piecewise function $h$, defined by
 
 $$ h(x) = \left\{ \begin{array}{ll} x^2, & \mbox{if } x < 0, \\ x+1, & \mbox{if } x \geq 0. \end{array} \right.$$
+
+(What's the domain and range of this function?)
+
+The graph of which can be found [here](https://www.desmos.com/calculator/y30jupkiaj).
+
+We have that $h(0) = 1$, but the reader should come up with an argument as to why 
+
+$$\lim_{x\rightarrow 0} h(x)$$
+
+doesn't exist.
+
+`removable discontinuity example`
+
+
+
