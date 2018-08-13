@@ -73,7 +73,7 @@ We can't just evaluate $f(1)$ because the definition of the limit tells us we're
 
 We take a look at the graph [here](https://www.desmos.com/calculator/pywkn1cgxa) and move the value of $a$ around to see what happens when $a$ gets close to $1$. 
 
-| $a$           |  $f(a)$           | 
+|   a           |  f(a)             | 
 | ------------- |:-----------------:| 
 | 0.9           | -1.645454545...   |
 | 0.99          | -1.9604950495...  |
