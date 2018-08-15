@@ -116,3 +116,19 @@ doesn't exist.
 
 `precise definition of a limit should come next. Use Desmos to zoom in the delta and epsilon stuff'
 
+
+
+## Examples/Exercises
+
+$$\lim_{h \rightarrow 0} \frac{\sqrt{a+h}-\sqrt{a}}{h}$$
+
+$$\lim_{h \rightarrow 0} \frac{\frac{1}{a+h}-\frac{1}{a}}{h}$$
+
+$$\lim_{h \rightarrow 0} \frac{(a+h)^3-a^3}{h}$$
+
+$$\lim_{x \rightarrow a} \frac{(x^3-a^3}{x-a}$$
+
+$$\lim_{x \rightarrow 0} \frac{8+4x-x^2-8\sqrt{1+x}}{8x^3}$$
+
+
+
