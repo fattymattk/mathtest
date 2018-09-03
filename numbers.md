@@ -42,6 +42,7 @@ Of course, we can add, multiply, and subtract any two rationals and get back ano
 Let's remind ourselves how to divide a rational number by another.
 
 Let $a=p/q$ and $b=s/t$, where $p,q,s$, and $t$ are integers, and $q,s$, and $t$ are not equal to $0$. Then $a$ divided by $b$ is:
+
 $$
 \begin{align*}
 \frac{a}{b} &= \frac{\frac{p}{q}}{\frac{s}{t}}, \\
