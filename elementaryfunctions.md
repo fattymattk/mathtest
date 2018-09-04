@@ -75,7 +75,7 @@ This is a good time to review the properties of exponential functions:
 
 * $a^n = a\cdot a \cdot a ... \cdot a$ ($n$ times) when $n$ is a positive integer.
 
-* $a^{m/n} = \sqrt[n]{a^m} = (\sqrt[n]{a})^m$ when $m$ and $n>0$ are integers.
+* $a^{m/n} = \sqrt\[n\]{a^m} = (\sqrt\[n\]{a})^m$ when $m$ and $n>0$ are integers.
 
 We'll take these properties to be true by definition. Also, don't forget that $a>0$ and $a\neq 1$ for all of the above.
 
@@ -94,6 +94,42 @@ This might not seem like much of a definition, but it defines a unique number $a
 You might want to think of the case for $0<a<1$. It's the same idea.
 
 The point to take away here is that these definitions are merely to tell us that a number exists. This might seem a little abstract, but eventually we will learn ways to compute (or approximate) the actual values.
+
+
+## Logarithmic Functions
+
+Logarithmic functions are defined to be the inverses of exponential functions. (Actually, one can first define logarithmic functions and then take exponential functions to be their inverses, but we won't do that.) 
+
+For $a>0$ and $a\neq 1$, we define $\log_a: \[0,\infty) \rightarrow \mathbb{R}$ to be such that $\log_a(x) = y$ if and only if $\a^y = x$.
+
+We then have that $a^{\log_a(x)} = x$ for all $x \in \[0,\infty) and $\log_a(a^y) = y$ for all $y \in \mathbb{R}$.
+
+It's common to think of the logarithmic function as the way to undo the exponential function. The $a$ is called the **base** of the logarithm.
+
+For example, if $2^x = 9$, we we want to solve for $x$, then we apply the $\log_2$ function to both sides. We get $\log_2(2^x) = \log_2(9)$.  Since the left hand side is the same as $x$, we get that $x = \log_2(9)$.
+
+The logarithmic functions have what we might consider to be the "opposite" properties of the exponential function. We have that:
+
+* $\log_a(bc) = \log_a(b) + \log_a(c)$ if $b>0$ and $c>0$.
+
+* $\log_a(b^c) = c \log_a(b)$ if $b>0$ and $c \in \mathbb{R}$.
+
+* $\log_a(1) = 0$.
+
+* $\log_a(1/b) = -\log_a(b)$ if $b>0$.
+
+* $\log_a(b) = \log_c(b) / \log_c(a)$ if $b>0$ and $c$ is any possible base for a logarithm. 
+
+You can derive each of these from an above appropriate exponential rule. (Maybe an exercise).
+
+## Trigonometric Functions
+
+Trigonometric functions might be the trickiest of all the elementary functions. They are a little harder to define, and they have many properties, or identities, that are much more tedious to list and remember.
+
+
+
+
+
 
 `notes: we should figure out where to do inverse functions. I'm thinking right after domain and range and before increasing and decreasing. We should define 1-1 and onto. Then we are in a situation to do the log function now.`
 
