@@ -29,4 +29,22 @@ When $x(t) = 3t + 1$, the car is always traveling at a constant velocity of $3$,
 
 The question then is: if a car is changing its speed as time moves on, how can we define its velocity at some given time? The graph won't be a straight line, so we simply can't take two points on the graph and measure the rise over run. But we might except we want to do something similar to this, and that the graph of a curve might still have some well-defined "steepness" to it at a given point.
 
-This "steepness" at a given point can be defined to be the slope of the **tangent line** to the curve at the given point. A tangent line can be thought of as the line that best approximates the curve at the point.
+This "steepness" at a given point can be defined to be the slope of the **tangent line** to the curve at the given point. A tangent line can be thought of as the line that best approximates the curve at the point. It is positive if the tangent line goes up to the right, negative if the it goes down to the right, or $0$ if it is perfectly horizontal.
+
+While we actually need two points on the graph to define a rise and a run, we can still determine a slope at a single point. Say we want to determine the slope at point $a$. We consider the rise over run of a line connecting $(a,f(a))$ and $(x,f(x))$ and then let $x$ approach $x$. This is given by
+
+$$
+\lim_{x \rightarrow a} \frac{f(x)-f(a)}{x-a}.
+$$
+
+This is in fact the definition of the **derivative** of $f$ at $a$. We denote this as $f'(a)$. We then have the definition of the derivative:
+
+$$
+f'(a) = \lim_{x \rightarrow a} \frac{f(x)-f(a)}{x-a}.
+$$
+
+Note that this limit might not exist. In that case we say that the derivative of $f$ at $a$ doesn't exist, or that $f$ is not differentiable at $a$. For example, if the graph of $f(x)$ has a sharp corner at $a$, we don't expect there to be a well-defined tangent line there, and so $f'(a)$ wouldn't exist in that case.
+
+
+
+
