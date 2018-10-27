@@ -1,0 +1,32 @@
+---
+use_math: true
+title: Power Rule
+---
+
+# Power Rule
+
+Computing derivatives using the limit definition can be tedious and time-consuming. We therefore want to find rules that can apply to different situations so we don't have to use the limit definition over and over again.
+
+The first rule we'll consider is the **power rule**. This applies to functions in the form $f(x) = x^n$ where $n$ is a positive integer. (Actually, it also applies when $n$ is real, but for now we'll only consider when $n$ is a positive integer.)
+
+We can first use the Binomial Theorem to expand out $(x+h)^n$.
+
+$$
+(x+h)^n = \sum_{k=0}^n \binom{n}{k} x^k h^{n-k}. 
+$$
+
+Then
+
+$$
+\frac{(x+h)^n-x^n}{h} = \sum_{k=0}^{n-1} \binom{n}{k} x^k h^{n-k-1}. 
+$$
+
+Taking the limit as $h \rightarrow 0$, the only terms left in the sum are when $n-k-1=0$. This leaves us with
+
+$$
+\lim_{h \rightarrow 0} \frac{(x+h)^n-x^n}{h} = \binom{n}{n-1} x^{n-1} = n x^{n-1}. 
+$$
+
+That's the power rule. If $f(x) = x^n$, then $f'(x) = n x^{n-1}$. This is true for all $x$ in the domain of $f$.
+
+For example, if $f(x) = x^{10}$, then $f'(x) = 10x^9$. The slope of the tangent line to the graph of $y=x^{10}$ is $10x^9$.
